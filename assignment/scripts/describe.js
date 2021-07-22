@@ -26,10 +26,10 @@ t
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We create a variable titled name, and set it to the string value 'Dane'.
+// We check if the value of name is equal to 'Mary', using the strict equality operator ===.
+// Since the value of name is 'Dane' instead of 'Mary' we output 'How do you do?'
+// to the console.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We declare the variables secret and code. We initialize code as the number 123.
+// We check if the value of code equals 123. Since it does, we set the value of
+// secret as 'super', and double the value of code. code is now 246.
+// We check if the value of code exceeds 250. 246 is less than 250, so we do nothing.
+// We ouput 'super' to the console.
 
 //CODE
 /*
@@ -70,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
+// We initialize three variables: isStudent as the boolean true, age as the number 34, and zip as the number 55407.
+// We first check if isStudent is true AND zip exceeds 80000. Since the latter condition is false, we move on to the first else if
+// We then check if isStudent is false and age is less than 30. Neither are true, so we move onto the second else if
 //
 
 //CODE
