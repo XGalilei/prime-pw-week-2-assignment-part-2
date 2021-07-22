@@ -147,8 +147,14 @@ if (mix === true) {
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4
+// We check if temp is higher than 39 and if time is greater or equal to 4
 // -- they are so we console.log 'throw away the food!'
+
+// FIX - incorrect operator: || is the OR operator, not the AND operator
+// Switch || to &&
+// I also wonder if it would make sense to declare time using let or var rather
+// than const, since in a real-world equivalent, time is going to change just as
+// much, if not more than, the temperature
 
 /*
 let temp = 40;
@@ -162,6 +168,8 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
+
+// FIX - the condition w
 
 /*
 let age = 21;
