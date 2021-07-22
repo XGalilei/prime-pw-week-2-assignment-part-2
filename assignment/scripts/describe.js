@@ -169,7 +169,10 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
-// FIX - the condition w
+// FIX - the condition gives us the opposite of the desired results: values
+// greater than or equal to minAge will console.log 'no entry'.
+// Option 1: Change the operator from <= to >
+// Option 2: Flip the console.log messages around
 
 /*
 let age = 21;
