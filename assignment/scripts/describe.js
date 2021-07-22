@@ -74,7 +74,8 @@ console.log(secret)
 // We initialize three variables: isStudent as the boolean true, age as the number 34, and zip as the number 55407.
 // We first check if isStudent is true AND zip exceeds 80000. Since the latter condition is false, we move on to the first else if
 // We then check if isStudent is false and age is less than 30. Neither are true, so we move onto the second else if
-//
+// We now check if isStudent is true. That is indeed the case, so we output
+// 'Welcome to Prime!' to the console.
 
 //CODE
 /*
